@@ -1,0 +1,395 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    background: #EBECF0;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    background: #fff;
+}
+
+/* left side start */
+.left_side{
+    width: 45%;
+}
+.left_side__box{
+    width: 526px;
+    background: #F4F4F4;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.left_side__box_information_container{
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.left_side__img{
+    width: 450px;
+    height: 450px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+
+}
+.left_side__profile_img{
+    background-image: url(../images/mernstackdeveloper-web-developer-appdeveloper-app-developer-web-app-javascript-javascript-developer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 5px solid rgb(179, 176, 176);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* profile part end */
+
+/* contarant part start */
+.left_side__contract_informaion ul{
+    margin-top: 70px;
+}
+.left_side__contract_informaion ul li{
+    margin-bottom: 20px;
+    
+}
+.left_side__contract_informaion ul li a{
+    color: #444440;
+    font-size: 25px;
+}
+.left_side__contract_informaion ul li:nth-child(4){
+    margin-bottom: 0px;
+}
+.left_side__contract_informaion ul li span{
+    margin-left: 25px;
+    font-family: 'Nunito', sans-serif;
+    /* font-size: px; */
+    color: #444440;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* contarant part end */
+
+/* Education part start */
+.left_side__secondary_school h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #444440;
+    margin-top: 70px;
+}
+.left_side__educaton_underline{
+    width: 320px;
+    height: 3px;
+    background: #444440;
+    margin-top: 10px;
+}
+.left_side__secondary_school h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #444440;
+    margin-top: 20px;
+}
+.left_side__secondary_school p{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #444440;
+}
+
+.left_side__secondary_school ul li{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #444440;
+}
+.left_side__secondary_school ul li:nth-child(4){
+    margin-bottom: 0px;
+}
+.left_side__secondary_school ul{
+    margin-top: 20px;
+    display: flex;
+}
+.left_side__secondary_school ul div:nth-child(2){
+    margin-left: 100px;
+
+}
+
+/* Education part end */
+
+/* skills par start */
+.left_side__skills{
+    padding-bottom: 40px;
+}
+.left_side__skills h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #444440;
+    margin-top: 70px;
+}
+.left_side__skills_underline{
+    width: 320px;
+    height: 3px;
+    background: #444440;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.left_side__skills p{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #444440;
+    margin-bottom: 10px;
+} 
+
+.left_side__skills_html{
+    width: 300px;
+    height: 10px;
+    background: #b6b6b6;
+    border-radius: 30px;
+}.left_side__skills_htmlTwo{
+    width: 240px;
+    height: 100%;
+    background: #444440;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.left_side__skills_css{
+    width: 300px;
+    height: 10px;
+    background: #b6b6b6;
+    border-radius: 30px;
+}.left_side__skills_cssTwo{
+    width: 180px;
+    height: 100%;
+    background: #444440;
+    border-radius: 15px 0px 0px 15px;
+}
+.left_side__skills_sass{
+    width: 300px;
+    height: 10px;
+    background: #b6b6b6;
+    border-radius: 30px;
+}.left_side__skills_sassTwo{
+    width: 195px;
+    height: 100%;
+    background: #444440;
+    border-radius: 15px 0px 0px 15px;
+}
+.left_side__skills_bootstrap{
+    width: 300px;
+    height: 10px;
+    background: #b6b6b6;
+    border-radius: 30px;
+}.left_side__skills_bootstrapTwo{
+    width: 210px;
+    height: 100%;
+    background: #444440;
+    border-radius: 15px 0px 0px 15px;
+}
+.left_side__skills_javascript{
+    width: 300px;
+    height: 10px;
+    background: #b6b6b6;
+    border-radius: 30px;
+}.left_side__skills_javascriptTwo{
+    width: 165px;
+    height: 100%;
+    background: #444440;
+    border-radius: 15px 0px 0px 15px;
+}
+.left_side__skills_github{
+    width: 300px;
+    height: 10px;
+    background: #b6b6b6;
+    border-radius: 30px;
+}.left_side__skills_githubTwo{
+    width: 200px;
+    height: 100%;
+    background: #444440;
+    border-radius: 15px 0px 0px 15px;
+}
+/* skills par end */
+
+/* left side end */
+
+/* right side start */
+.right_side{
+    width: 55%;
+}
+.right_side__container{
+    width: 614px;
+    margin: 120px 50px 50px 40px;
+    position: relative;
+    height: 1742px;
+}
+.right_side__about_me h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #444440;
+    margin-bottom: 10px;
+}
+.right_side__about_me h1 span{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #444440;
+    font-weight: 400;
+}
+.right_side__about_me h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #444440;
+    font-weight: 400;
+}.right_side__about_me p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #444440;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 40px;
+    letter-spacing: 1.3pt;
+}
+
+/* career objective */
+.right_side__career_objective h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #444440;
+    margin-top: 70px;
+}
+.right_side__career_objective_underline{
+    width: 320px;
+    height: 3px;
+    background: #444440;
+    margin-top: 10px;
+}
+.right_side__career_objective p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #444440;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    letter-spacing: 1.3pt;
+}
+/* training courses */
+.right_side__training h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #444440;
+    margin-top: 70px;
+}
+.right_side__training_underline{
+    width: 320px;
+    height: 2px;
+    background: #444440;
+    margin-top: 10px;
+}
+.right_side__training h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #444440;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right_side__training ul{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.right_side__training ul li{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #444440;
+}
+
+.right_side__training ul div:nth-child(2){
+    margin-left: 100px;
+}
+
+/* reference part start */
+.right_side__reference h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #444440;
+    margin-top: 70px;
+}
+.ride_side__reference_underline{
+    width: 320px;
+    height: 3px;
+    background: #444440;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.right_side__reference span{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #444440;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.right_side__reference p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #444440;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right_side__reference ul li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #444440;
+    font-weight: 400;
+}
+/* signature part start */
+.right_side__signature{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-top: 500px;
+}
+.right_side__signature h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #444440;
+    display: inline-block;
+}
+.right_side__signature_underline{
+    width: 235px;
+    height: 3px;
+    background: #444440;
+    /* margin-top: 10px; */
+    
+}
+.right_side__signature img{
+    width: 80px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    
+}
+/* right side end */
